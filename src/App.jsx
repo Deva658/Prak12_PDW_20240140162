@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import imgHermes from './assets/terre.png';
+import imgMontblanc from './assets/Montblanc.png';
+import imgMykonos from './assets/Mykonos.png';
+import imgYSL from './assets/YSL.png';
 
 // --- MOCK DATA ---
 const products = [
@@ -9,7 +13,7 @@ const products = [
     notes: "Woody, Citrus",
     price: "2100000",
     priceDisplay: "Rp 2.100.000",
-    img: "/terre.png"
+    img: imgHermes
   },
   {
     id: 2,
@@ -18,7 +22,7 @@ const products = [
     notes: "Fresh, Aromatic",
     price: "1450000",
     priceDisplay: "Rp 1.450.000",
-    img: "/Montblanc.png"
+    img: imgMontblanc
   },
   {
     id: 3,
@@ -27,7 +31,7 @@ const products = [
     notes: "Gourmand, Sweet",
     price: "299000",
     priceDisplay: "Rp 299.000",
-    img: "/Mykonos.png"
+    img: imgMykonos
   },
   {
     id: 4,
@@ -36,7 +40,7 @@ const products = [
     notes: "Gourmand, Vanilla",
     price: "2450000",
     priceDisplay: "Rp 2.450.000",
-    img: "YSL.png"
+    img: imgYSL
   }
 ];
 
